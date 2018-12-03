@@ -6,14 +6,13 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Srisakdi" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="style.css">
-
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 		<div class="container">
-  		<a class="navbar-brand" href="#"><img src="images\logo_icon_fixed.png" width="100" height="60"><span id="title">F.H.P.U. Dashek</span></a>
+  		<a class="navbar-brand" href="index.html"><img src="images\logo_icon_fixed.png" width="100" height="60"><span id="title">F.H.P.U. Dashek</span></a>
   		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     		<span class="navbar-toggler-icon"></span>
   		</button>
@@ -36,17 +35,37 @@
  	</nav>
  	<div class="container">
  	<div class="row">
- 		<div class="col-md-6">
- 			<h3 class="marginTop"> Zapraszamy do kontaktu z nami </h3><br>
- 			<p class="textFormat marginTop2"> <i style="font-size:50px" class="fas fa-phone"></i> (0-14) 643-60-08</p><br> 
- 			<p class="textFormat marginTop2"> <i style="font-size:50px" class="fas fa-mobile-alt"></i> 725-696-669 / 667-88-29-77 </p><br>
- 			<p class="textFormat marginTop2"> <i style="font-size:50px" class="fas fa-at"></i> biuro@dashek.pl </p><br>
- 			<p class="textFormat marginTop2"> <i style="font-size:50px" class="fas fa-home"></i> Szczucin, ul. Piłsudskiego 33 </p>
- 						
-
+ 		<div class="col-md-7">
+ 			<h3 class="marginTop"> Napisz do nas </h3>
+ 	<form>
+	  <div class="form-group textFormat2">
+	    <label for="emailInput">e-mail</label>
+	    <input type="email" class="form-control smallMargin" id="emailInput" placeholder="nazwa@mail.com">
+	  </div>
+	  <div class="form-group textFormat2">
+	    <label for="exampleFormControlSelect1">Imię i nazwisko</label>
+	    <textarea class="form-control" id="name" rows="1"></textarea>
+	  </div>
+	  <div class="form-group textFormat2">
+	    <label for="exampleFormControlSelect2">Nr telefonu</label>
+	   	<textarea class="form-control" id="phoneNumber" rows="1"></textarea>
+	  </div>
+	  <div class="form-group textFormat2">
+	    <label for="exampleFormControlTextarea1">Treść wiadomości</label>
+	    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+	  </div>
+	</form>
  		</div>
 
- 		<div class="col-md-6"></div>
+ 		<div class="col-md-5 ml-auto">
+ 				<h3 class="marginTop d-flex justify-content-end"> Zapraszamy do kontaktu z nami </h3><br>
+ 			<p class="textFormat marginTop2 d-flex justify-content-end">  (0-14) 643-60-08<i style="font-size:50px; margin-left:10px" class="fas fa-phone"></i></p><br> 
+ 			<p class="textFormat marginTop2 d-flex justify-content-end">  725-696-669 / 667-88-29-77 <i style="font-size:50px; margin-left:30px" class="fas fa-mobile-alt"></i> </p><br>
+ 			<p class="textFormat marginTop2 d-flex justify-content-end">  biuro@dashek.pl <i style="font-size:50px; margin-left:10px" class="fas fa-at"></i> </p><br>
+ 			<p class="textFormat marginTop2 d-flex justify-content-end">  Szczucin, ul. Piłsudskiego 33 <i style="font-size:50px; margin-left:10px" class="fas fa-home"></i></p>
+ 		</div>
+
+ 		</div>
  	</div>
 </div>
 <footer class="page-footer dark pt-4 bg-dark fixed-bottom">
