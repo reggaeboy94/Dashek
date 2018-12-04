@@ -1,5 +1,10 @@
-body{
+html{
+	min-height: 100%;
+	position:relative;
+}
 
+body{
+	margin-bottom: 220px;
 }
 
 h1{
@@ -61,17 +66,22 @@ h5{
 	margin-bottom: 10px;
 }
 
-.footerStyler{
-	background-color: black;
-	color:white;
+.page-footer{
+position:absolute;
+bottom:0;
+width: 100%;
 }
 
-.white{
+.footer-copyright{
+	background-color: black;
+	color:white;
+	height:40px;
+}
+
+.bottomMenu{
 	color:white;
 	font-family: 'Oswald';
 	font size:18px;
+	margin-right: 25px;
 }
 
-.captionFormat{
-
-}
